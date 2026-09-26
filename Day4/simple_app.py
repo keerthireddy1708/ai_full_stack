@@ -4,6 +4,7 @@ st.write("Hello")
 st.header("home page....")
 st.subheader("about ....")
 st.markdown("Hello **keerthi**")
+st.chat_input("search")
 name=st.text_input("Enter your name....")
 if st.button("submit"):
     st.write("hello",name)
